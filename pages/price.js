@@ -27,7 +27,7 @@ function Pricee() {
 
         {
             prices?.map((price) => (
-                <Price price={price?.pricevar} email={price?.email} productname={price?.product[0]?.productname}/>
+                <Price key={price?._id} price={price?.pricevar} email={price?.email} productname={price?.product[0]?.productname}/>
             ))
         }
      
