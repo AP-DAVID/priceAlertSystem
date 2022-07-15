@@ -4,7 +4,7 @@ import axios from 'axios'
 import { Popconfirm, message } from 'antd';
 
 
-function Price() {
+function Pricee() {
  const [prices, setPrices] = useState();
 
 
@@ -35,4 +35,4 @@ function Price() {
   );
 }
 
-export default Price
+export default Pricee
